@@ -10,8 +10,8 @@
 </head><body>
 <div class="sidenav">
     <div class="login-main-text">
-        <h2>Application<br> Login Page</h2>
-        <p>Login or register from here to access.</p>
+        <h2>Ventura Hr</h2>
+        <h3>Cadastro de candidato</h3>
     </div>
 </div>
 <div class="main">
@@ -27,7 +27,6 @@
                     <label>E-mail</label>
                     <input type="text" class="form-control" placeholder="Digite seu e-mail" name="email">
                 </div>
-
 
                 <div class="form-group">
                     <label>Data Nascimento</label>
@@ -45,8 +44,7 @@
                     <input type="password" class="form-control" placeholder="Digite sua senha" name="senha">
                 </div>
 
-
-                <a><href="/login" button type="submit" class="btn btn-secondary">Cadastrar</button>
+                <a href="/login" button type="submit" class="btn btn-secondary">Cadastrar</a>
         </div>
     </div>
 </div>
