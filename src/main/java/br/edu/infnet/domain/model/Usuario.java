@@ -3,7 +3,6 @@ package br.edu.infnet.domain.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name ="usuarios")
 public class Usuario {
 
     @Id
@@ -13,7 +12,6 @@ public class Usuario {
     private String senha;
 
     public Usuario(){
-
     }
 
     public Integer getId() {
