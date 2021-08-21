@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -12,9 +13,7 @@
 <div class="sidenav">
     <div class="login-main-text">
         <h2>Cadastro Administrador</h2>
-        <!--<form action="/empresa/registro" method="post"></form> -->
-    </div>
-</div>
+        <form action="/empresa/registro" method="post">
 <div class="main">
     <div class="col-md-6 col-sm-12">
         <div class="login-form">
@@ -44,9 +43,9 @@
                     <input type="password" class="form-control" placeholder="Digite sua senha" name="senha">
                 </div>
 
-                <a href="/login" button type="submit" class="btn btn-secondary">Cadastrar</button>
+                <a href="/login" button type="submit" class="btn btn-secondary">Cadastrar</a>
+            </form>
         </div>
     </div>
-</div>
 </body>
 </html>
