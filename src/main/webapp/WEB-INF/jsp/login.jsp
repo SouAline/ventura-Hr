@@ -11,16 +11,16 @@
 <body>
 <div class="sidenav">
     <div class="login-main-text">
-        <h3>ENTRE OU CADASTRE-SE</h3>
-        <form>
+        <h3>Ventura Hr, entre ou cadastre-se</h3>
+        <form method="post">
 
     <div class="main">
         <div class="col-md-6 col-sm-12">
             <div class="login-form">
                 <form>
                     <div class="form-group">
-                        <label>Nome</label>
-                        <input type="text" class="form-control" placeholder="Digite seu nome">
+                        <label>E-mail</label>
+                        <input type="text" class="form-control" placeholder="Digite seu e-mail">
                     </div>
                     <div class="form-group">
                         <label>Senha</label>
@@ -32,11 +32,11 @@
                         <label>Ou cadastre-se como:</label>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-secondary">Candidato</button>
+                            <a href="/candidato/registro" type="submit" class="btn btn-secondary">Candidato</a>
 
-                            <button type="submit" class="btn btn-secondary">Empresa</button>
+                            <a href="/empresa/registro" type="submit" class="btn btn-secondary">Empresa</a>
 
-                            <button type="submit" class="btn btn-secondary">Administrador</button>
+                            <a href="/administrador/registro" type="submit" class="btn btn-secondary">Administrador</a>
                         </div>
                     </div>
             </div>
