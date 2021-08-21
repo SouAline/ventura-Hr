@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class Empresa extends Usuario {
 
     private String nomeFantasia;
-    private LocalDate razaoSocial;
+    private String razaoSocial;
 
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private LocalDate dataFundacao;

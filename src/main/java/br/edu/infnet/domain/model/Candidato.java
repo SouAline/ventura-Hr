@@ -2,9 +2,10 @@ package br.edu.infnet.domain.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-
+import javax.persistence.Entity;
 import java.time.LocalDate;
 
+@Entity
 public class Candidato extends Usuario{
 
     private String nome;
@@ -14,6 +15,10 @@ public class Candidato extends Usuario{
     private LocalDate dataNascimento;
 
     Candidato(){super();}
+
+    public Candidato() {
+
+    }
 
     public String getCpf() {
         return cpf;
